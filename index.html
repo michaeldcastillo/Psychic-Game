@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Psychic Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+    
+</head>
+
+<!-- start/reset the game by invoking the playGame() function when the HTML body loads -->
+<body onload="playGame()">
+
+    <h1>The Psychic Game</h1>
+    <p>Guess What Letter I'm Thinking Of... <span id="secret"></span></p>
+    <hr>
+    <p>Guesses Left: <span id="guesses-left"></span></p>
+    <p>Guesses So Far: <span id="guesses-sofar"></span></p>
+    <hr>
+    <p>Wins: <span id="wins"></span></p>
+    <p>Losses: <span id="losses"></span></p>
+    <hr>
+    <!-- start/reset the game by invoking the playGame() function when this button is clicked -->
+    <button onclick="playGame()" type="button">Reset Wins/Losses</button>
+    
+</body>
+</html>
